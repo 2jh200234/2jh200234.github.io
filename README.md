@@ -36,7 +36,7 @@
   2. _posts 폴더의 댓글을 활성화 하고싶은 글의 .md파일에서 comments: true 줄을 추가한다. (포스트 -2)
   3. _layouts 폴더의  post.html 파일에 universer code를 붙여넣은 뒤 수정을 한다.
      수정된 코드의 내용은 다음과 같다.
-  
+   
      {% if page.comments %}
      <h2>Comments</h2>
      <div id="disqus_thread"></div>
@@ -60,6 +60,7 @@
      </script>
      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
      {% endif %}
+     
   4. 수정한 내용을 저장하기 위해 포스트 3번 내용의 명령어를 다시 입력해준다.
   5. 블로그 주소를 통해 확인하면 끝
   
