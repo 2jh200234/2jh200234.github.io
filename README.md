@@ -2,17 +2,17 @@
 
 [https://2jh200234.github.io](https://2jh200234.github.io) <<최종 블로그 주소
 
-## 시작
+## *시작*
   1. github 페이지에서 <username>.github.io라는 이름의 public repositories를 생성한다.
   2. 이 repositories의 주소를 복사한 뒤 CMD를 실행한다.
   3. $git clone <주소> <폴더명>을 입력해 <폴더명>으로 clone을 생성한다.
 
-## 테마 적용
+## *테마 적용*
   1. [Clean Blog](https://jekyllthemes.io/theme/startbootstrap-clean-blog-jekyll) 테마를 이용했다.
   2. [Clean Blog Github](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll) 사이트에서 fork 기능을 이용해 나의 github로 가져왔다.
   3. 위의 시작과정을 다시 진행해 나의 블로그에 Clean Blog 테마를 적용했다.
   
- ## 포스트
+ ## *포스트*
   1. _posts 폴더 내에 새로운 .md 파일을 생성한다.
   2. 상단에 
      ---
@@ -31,7 +31,7 @@
      명령어를 명령프롬포트 창, clone된 폴더 위치에서 순서대로 입력한다.
   4. 블로그 주소를 들어가 변경사항을 확인한다.
   
- ##댓글
+ ## *댓글*
   1. disqus 가입을 한 뒤 universer code를 획득한다.
   2. _posts 폴더의 댓글을 활성화 하고싶은 글의 .md파일에서 comments: true 줄을 추가한다. (포스트 -2)
   3. _layouts 폴더의  post.html 파일에 universer code를 붙여넣은 뒤 수정을 한다.
@@ -62,7 +62,7 @@
   4. 수정한 내용을 저장하기 위해 포스트 3번 내용의 명령어를 다시 입력해준다.
   5. 블로그 주소를 통해 확인하면 끝
   
-## 시행착오
+## *시행착오*
   1. 테마를 적용하는 과정에서 $jekyll new . --force 명령어가 적용되지 않는 문제가 발생했다.
      기존 테마의 jekyll 버전과 나의 버전이 일치하지 않아 생긴 문제라고 생각했고, 적용 가능한 다른 테마를 찾았다.
   2. %bundle exec jekyll serve 명령어 사용 중 오류가 발생했다.
