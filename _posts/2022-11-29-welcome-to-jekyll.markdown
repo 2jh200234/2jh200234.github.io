@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "유레카 프로젝트"
+title:  "Git과 Github"
 date:   2022-11-29 01:37:32 +0900
 categories: jekyll update
 comments: true
